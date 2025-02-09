@@ -48,7 +48,8 @@ body {
     font-size: 16px;
     margin-bottom: 20px;
     font-weight: bold;
-    color: white;
+    color: rgb(19, 100, 26);
+    font-style: italic;
 }
 
 .buttons {
