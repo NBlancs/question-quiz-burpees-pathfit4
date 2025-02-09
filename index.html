@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title-container">
+            <img src="USTP.png" alt="USTP Logo" width="100">
+            <h2>Quiz Burpees by Group 3</h2>
+        </div>
+        
+        <div class="card">
+            <div class="question" id="question"></div>
+            <div class="answer" id="answer"></div>
+            <div class="buttons">
+                <button id="prevBtn" onclick="showPreviousQuestion()">Previous</button>
+                <button id="nextBtn" onclick="showNextQuestion()">Next</button>
+            </div>
+        </div>
+
+        <div class="members-card">
+            <h3 class="members-title">Members:</h3>
+            <div class="members-grid">
+                <div class="member">Blanco</div>
+                <div class="member">Fantanilla</div>
+                <div class="member">Sultan</div>
+                <div class="member">Bello</div>
+                <div class="member">Lumagbas</div>
+                <div class="member">Tapdasan</div>
+                <div class="member">Rivera</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h4>Made with love by Nblancs ♥ © 2025</h4>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
